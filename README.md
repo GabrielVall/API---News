@@ -8,11 +8,9 @@
 1. **Clonar el repositorio**
 
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
-   cd noticias
+   git clone https://github.com/GabrielVall/API---News
+   cd {nombre del proyecto}
    ```
-
-   Reemplaza `[URL_DEL_REPOSITORIO]` con la URL real de tu repositorio.
 
 2. **Instalación de dependencias**
 
