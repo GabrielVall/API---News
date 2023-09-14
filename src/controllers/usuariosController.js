@@ -34,7 +34,7 @@ exports.getUsuarios = (req, res) => {
 exports.getUsuarioById = (req, res) => {
   const id = req.params.id;
 
-  connection.query('SELECT * FROM usuarios WHERE id = ?', [id], (error, results) => {
+  connection.query('SELECT * FROM usuarios WHERE id_usuario = ?', [id], (error, results) => {
     if (error || results.length === 0) {
       res.status(404).send('Usuario no encontrado');
       return;
